@@ -37,20 +37,16 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
-<<<<<<< HEAD
-Presentation_climate_research.pptx Presentation_climate_research_insights.pptx Presentation_climate_research_insights_24102022.pptx
-*.xlsx
-*.txt
-Report_climate research.docx
-*.png
-*.csv
-=======
 
+# Office/binary files
 *.xlsx
-*.csv
-*.txt
 *.pptx
 *.docx
-*.png
 
->>>>>>> origin/main
+# OS files
+.DS_Store
+
+# Python
+__pycache__/
+*.egg-info/
+.venv/

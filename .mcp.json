@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "gtr": {
+      "command": "/Users/jamie.cross/Documents/UKRI-GTR-Scanner/python/.venv/bin/python",
+      "args": ["-m", "gtr_scanner.mcp_server"]
+    }
+  }
+}

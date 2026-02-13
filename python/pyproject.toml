@@ -1,0 +1,13 @@
+[project]
+name = "gtr-scanner"
+version = "1.0.0"
+description = "Search and analyse UKRI Gateway to Research projects"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.27",
+    "mcp[cli]>=1.0",
+]
+
+[project.scripts]
+gtr-search = "gtr_scanner.cli:main"
+gtr-mcp = "gtr_scanner.mcp_server:main"
